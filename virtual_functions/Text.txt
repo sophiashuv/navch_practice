@@ -1,0 +1,7 @@
+C Sophia Kravchuk 20 1 5
+P Julia Happunovich 25 0 0
+P Arthur Bodnar 30 1 10000
+C Sophia Makohin 45 0 0
+P Anastasia Savchenko 25 1 2000
+C Max Petryshyn 19 1 8
+C Malik Nikita 27 1 3
