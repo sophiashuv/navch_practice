@@ -1,0 +1,8 @@
+1
+6
+Z Calculus_____ 95 Halavca____
+Z English______ 92 Godiz______
+E Diskrete_____ 91 Scherbina__ Pryadko____
+E Programming__ 90 Muziychuck_ Kvasnytsia_
+E Mathanalysis_ 100 Tarasyk___ Suschyk____
+E Oei__________ 88 Horlach____ Horlach____
