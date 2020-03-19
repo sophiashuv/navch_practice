@@ -2,6 +2,9 @@
 #include <forward_list>
 //1.	Вставити у списку L після кожного елемента новий елемент Е.
 //2.	Видалити зі списку L задану кількість елементів, починаючи із заданої позиції.
+//3.	Поміняти місцями перший і останній елементи непорожнього списку L.
+//4.	Видалити зі списку L після кожного елемента Е один елемент, якщо такий елемент існує і не дорівнює Е.
+
 
 using namespace std;
 
@@ -47,6 +50,38 @@ void task2(forward_list <int> &L, size_t &size){
     }
 }
 
+void task3(forward_list <int> &L, size_t &size){
+    cout << "-----------------task3-----------------\n";
+    auto i1 = L.begin();
+    auto i2 = L.begin();
+    advance(i2, size - 1);
+    std::iter_swap(i1, i2);
+    showlist(L);
+}
+
+void task4(forward_list <int> &L, size_t &size){
+    cout << "-----------------task4-----------------\n";
+    int elem;
+    cin >> elem;
+    auto it = L.cbegin();
+    auto it2 = L.cbegin();
+    ++it2;
+    while (it2 != L.cend()){
+        if (*it == elem && *it2 != elem) {
+            ++it2;
+            ++it2;
+            it = L.erase_after(it);
+            size--;
+
+        }
+        else {
+            ++it;
+            ++it2;
+        }
+    }
+    showlist(L);
+}
+
 int main() {
     size_t size = 0;
     forward_list<int> L;
@@ -61,5 +96,8 @@ int main() {
     showlist(L);
     task1(L, e, size);
     task2(L, size);
+    task3(L, size);
+    task4(L, size);
+
     return 0;
 }
