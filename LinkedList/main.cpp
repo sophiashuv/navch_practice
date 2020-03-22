@@ -4,6 +4,7 @@
 //2.	Видалити зі списку L задану кількість елементів, починаючи із заданої позиції.
 //3.	Поміняти місцями перший і останній елементи непорожнього списку L.
 //4.	Видалити зі списку L після кожного елемента Е один елемент, якщо такий елемент існує і не дорівнює Е.
+//5.	Вставити у вказану позицію списку L новий елемент Е.
 
 
 using namespace std;
@@ -82,6 +83,26 @@ void task4(forward_list <int> &L, size_t &size){
     showlist(L);
 }
 
+void task5(forward_list <int> &L, size_t &size){
+    cout << "-----------------task5-----------------\n";
+    int p, el;
+    try {
+        cout << "Enter position of element: ";
+        cin >> p;
+        cout << "Enter element: ";
+        cin >> el;
+        if (p - 1 > size) throw "You entered wrong parameters!\n";
+        forward_list<int>::iterator itr1;
+        itr1 = L.begin();
+        advance(itr1, p-1);
+        L.insert_after(itr1, el);
+        size ++;
+        showlist(L);
+    } catch(const char* &e) {
+        cout << e;
+    }
+}
+
 int main() {
     size_t size = 0;
     forward_list<int> L;
@@ -98,6 +119,6 @@ int main() {
     task2(L, size);
     task3(L, size);
     task4(L, size);
-
+    task5(L, size);
     return 0;
 }
