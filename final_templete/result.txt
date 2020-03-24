@@ -1,0 +1,18 @@
+This are all 3-lines that are connected with angle 90.
+
+l1: first = (1; 1), second = (1; 2) Vector Coordinates: (0; -1)
+l2: first = (1; 1), second = (3; 1) Vector Coordinates: (-2; 0)
+l3: first = (3; 1), second = (3; 5) Vector Coordinates: (0; -4)
+
+l1: first = (1; 1), second = (1; 2) Vector Coordinates: (0; -1)
+l2: first = (1; 1), second = (3; 1) Vector Coordinates: (-2; 0)
+l3: first = (3; 1), second = (3; 8) Vector Coordinates: (0; -7)
+
+l1: first = (1; 1), second = (3; 1) Vector Coordinates: (-2; 0)
+l2: first = (3; 1), second = (3; 5) Vector Coordinates: (0; -4)
+l3: first = (3; 1), second = (3; 8) Vector Coordinates: (0; -7)
+
+l1: first = (1; 1), second = (5; 5) Vector Coordinates: (-4; -4)
+l2: first = (5; 5), second = (8; 2) Vector Coordinates: (-3; 3)
+l3: first = (8; 2), second = (13; 7) Vector Coordinates: (-5; -5)
+
