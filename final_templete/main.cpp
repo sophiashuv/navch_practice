@@ -1,7 +1,6 @@
 #include <iostream>
 #include "List.h"
 #include "Connected.h"
-#include "List.h"
 #include <fstream>
 #include "WrongConnectionException.h"
 
