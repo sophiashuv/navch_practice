@@ -38,13 +38,10 @@ void write_file(List<T> connected, string file_name){
     ofstream myfile (file_name);
     if (myfile.is_open()) {
         myfile << "This are all 3-lines that are connected with angle 90.\n\n";
-        for (int i = 0; i < connected.GetSize(); ++i) {
-            myfile << connected[i];
-        }
+        for (int i = 0; i < connected.GetSize(); ++i) myfile << connected[i];
         myfile.close();
     }
     else cout << "Unable to open file";
-
 }
 
 template<typename T>
