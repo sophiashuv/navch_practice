@@ -35,16 +35,16 @@ public:
         head = nullptr;
     }
 
-//    ~List(){
-//        Node<T>* current = head;
-//        Node<T>* pNext;
-//
-//        while (current != nullptr) {
-//            pNext = current->pNext;
-//            delete current;
-//            current = pNext;
-//        }
-//    }
+   ~List(){
+       Node<T>* current = head;
+       Node<T>* pNext;
+
+       while (current != nullptr) {
+           pNext = current->pNext;
+           delete current;
+           current = pNext;
+       }
+   }
 
     void push_back(T data){
         if (head == nullptr) head = new Node<T>(data);
