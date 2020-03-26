@@ -1,7 +1,7 @@
 #include <iostream>
+#include <fstream>
 #include "List.h"
 #include "Connected.h"
-#include <fstream>
 #include "WrongConnectionException.h"
 
 using namespace std;
@@ -34,18 +34,21 @@ void read_file(List<Line> &l, string file_name){
 }
 
 template<typename T>
-void write_file(List<T> connected, string file_name){
+void write_file(List<T> &connected, string file_name){
     ofstream myfile (file_name);
     if (myfile.is_open()) {
         myfile << "This are all 3-lines that are connected with angle 90.\n\n";
-        for (int i = 0; i < connected.GetSize(); ++i) myfile << connected[i];
+        for (int i = 0; i < connected.GetSize(); ++i) {
+            myfile << connected[i];
+        }
         myfile.close();
     }
     else cout << "Unable to open file";
+
 }
 
 template<typename T>
-void build_connections(List<Line> l, List<Connected<T>> &connected){
+void build_connections(List<Line> &l, List<Connected<T>> &connected){
     Connected<Check> con;
     size_t s = l.GetSize();
     for (size_t i = 0; i < s-2; ++i) {
