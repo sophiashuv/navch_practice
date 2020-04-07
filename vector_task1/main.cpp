@@ -1,5 +1,8 @@
 #include <iostream>
 #include <vector>
+#include <iterator>
+#include <string>
+
 using namespace std;
 
 
@@ -7,7 +10,7 @@ using namespace std;
  * The function for filling vector with integers.
  */
 void fill_vec(vector<int> &vec){
-    cout << "Enter elements of list or 'stop' to continue: ";
+    cout << "Enter elements of vector or 'stop' to continue: ";
     string e;
     cin >> e;
     while (e != "stop"){
@@ -31,7 +34,7 @@ void show_vec(const vector<int> &vec) {
  */
 bool check_palindrome(const vector<int> &vec){
     size_t size = vec.size();
-    for (int i = 0; i < size/2; ++i) {
+    for (size_t i = 0; i < size/2; ++i) {
         if (vec[i] != vec[size-1-i]) return false;
     } return true;
 }
@@ -44,8 +47,8 @@ bool check_palindrome(const vector<int> &vec){
 void many(const vector<int> &vec){
     vector<int> many;
     bool is = false;
-    for (int i = 0; i < vec.size(); ++i) {
-        for (int j = 0; j < i; ++j) {
+    for (size_t i = 0; i < vec.size(); ++i) {
+        for (size_t j = 0; j < i; ++j) {
             if (vec[i] == vec[j]) {
                 for (int el: many) if (el == vec[i]) is = true;
                 if (!is) {
@@ -64,14 +67,17 @@ void many(const vector<int> &vec){
  * occurres also in the second one.
  */
 void delete_same(vector<int> &vec1, const vector<int> &vec2){
-    for (auto it2 = vec2.begin(); it2 != vec2.end(); ++it2){
-        for (auto it1 = vec1.begin(); it1 != vec1.end(); ++it1){
-            if (*it2 == *it1) {
-                vec1.erase(it1);
-                it1--;
+    for (int i = 0; i < vec2.size(); ++i) {
+        for (int j = 0; j < vec1.size(); ++j) {
+            if (vec1[j] == vec2[i]) {
+                vec1.erase(vec1.begin() + j);
+                j--;
             }
+
         }
+
     }
+
 }
 
 
@@ -117,5 +123,8 @@ int main() {
     return 0;
 }
 
-// 1 2 2 3 4 5 6 6 6 7 8 stop
-// 11 14 2 12 6 8 12 2 stop
+// 1 1 2 2 3 4 5 6 6 6 7 8 stop
+// 1 1 11 14 2 12 6 8 12 2 stop
+
+//1 1 2 3 4 stop
+//1 5 3 stop
