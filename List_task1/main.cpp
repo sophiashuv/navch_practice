@@ -1,6 +1,5 @@
 #include <iostream>
 #include <list>
-#include <string>
 #include <iterator>
 
 //Виконане завдання завантажити у вигляді одного файлу .cpp
@@ -17,13 +16,15 @@ using namespace std;
  * The function for filling list with integers.
  */
 void fill_lst(list<int> &lst) {
-    cout << "Enter elements of vector or 'stop' to continue: ";
-    string e;
+    cout << "Enter elements of vector or any other char to stop: ";
+    int e;
     cin >> e;
-    while (e != "stop") {
-        lst.push_back(stoi(e));
+    while (!cin.fail()) {
+        lst.push_back(e);
         cin >> e;
     }
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');    // This line ignores the rest of the current line, up to '\n'.
 }
 
 
