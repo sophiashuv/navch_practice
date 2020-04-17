@@ -1,0 +1,50 @@
+Student list where CS students are first: 
+Ernesto Lytton CS 23 - 2
+Odie Gilreath CS 31 - 5
+Mckenzie Klein CS 11 - 3
+Adah Pinales CS 22 - 5
+Kandy Keck CS 11 - 3
+Wanita Galaway CS 11 - 4
+Isiah Truett CS 11 - 4
+Cole Yeltsin BA 22 - 4
+Loyce Lair EPE 12 - 1
+Dorla Lanser EPE 31 - 5
+Alex Germain BA 11 - 2
+Keith Avina BA 22 - 1
+Chloe Caulkins EPE 21 - 4
+Johnny Hires EPE 32 - 5
+Britni McDuff BA 32 - 1
+Renea Willits EPE 12 - 5
+Lorrie Buhr BA 32 - 1
+Mitsue Hundley EPE 12 - 2
+Zack Axtell EPE 21 - 5
+Trevor Nutting BA 31 - 3
+------------------------------------------------------------------------------
+
+Student list after removing students whose points are lower than 2: 
+Ernesto Lytton CS 23 - 2
+Odie Gilreath CS 31 - 5
+Mckenzie Klein CS 11 - 3
+Adah Pinales CS 22 - 5
+Kandy Keck CS 11 - 3
+Wanita Galaway CS 11 - 4
+Isiah Truett CS 11 - 4
+Cole Yeltsin BA 22 - 4
+Dorla Lanser EPE 31 - 5
+Alex Germain BA 11 - 2
+Chloe Caulkins EPE 21 - 4
+Johnny Hires EPE 32 - 5
+Renea Willits EPE 12 - 5
+Mitsue Hundley EPE 12 - 2
+Zack Axtell EPE 21 - 5
+Trevor Nutting BA 31 - 3
+------------------------------------------------------------------------------
+
+Alphabetically sorted students of CS faculty: 
+Adah Pinales CS 22 - 5
+Ernesto Lytton CS 23 - 2
+Isiah Truett CS 11 - 4
+Kandy Keck CS 11 - 3
+Mckenzie Klein CS 11 - 3
+Odie Gilreath CS 31 - 5
+Wanita Galaway CS 11 - 4
