@@ -2,6 +2,7 @@
 #include <fstream>
 #include <list>
 #include <set>
+#include <iterator>
 #include <algorithm>
 #include "Student.h"
 
@@ -12,16 +13,6 @@
 //        порядок інших студентів зберегти. Вилучити студентів, середній бал яких <2.
 //        Отримати в алфавітному порядку студентів заданого факультету. Результати всіх операцій
 //        записати у файл. Використовувати для читання та запису потокові ітератори.
-
-
-/*
- * The structure is used to compare students in a set.
- */
-struct lex_compare {
-    bool operator() ( const Student& a,  const Student& b) {
-        return a < b;
-    }
-};
 
 
 /*
@@ -40,7 +31,8 @@ list<Student> read_file(const string &file_name){
 
 
 /*
- * The function writes a Container of Students using ostream_iterator
+ * The function writes a Container of Students using
+ * ostream_iterator.
  */
 template <typename C>
 void write(const C &students, ostream &os){
@@ -50,17 +42,18 @@ void write(const C &students, ostream &os){
 
 
 /*
- * The function moves all students of input faculty to begin and writes new student list.
+ * The function moves all students of input faculty and group to
+ * the beginning of the list and writes new student list into a file.
  */
 void move_front(list<Student> &students, ostream &os){
-    string faculty;
-    cout << "Enter name of faculty to move front: ";
-    cin >> faculty;
-    os << "Student list where " << faculty << " students are first: \n";
+    string faculty; int group;
+    cout << "Enter name of faculty (CS, BA, EPE) and group (22, 11, 12, 31, 32) to move front: ";
+    cin >> faculty >> group;
+    os << "Student list where " << faculty  << " " << group << " students are first: \n";
     auto it = students.end();
     for (size_t i = students.size(); i > 0; i--){
         it--;
-        if (it->getFaculty() == faculty) {
+        if (it->getFaculty() == faculty && it->getGroup() == group) {
             students.splice(students.begin(), students, it);
             advance(it, i);
         }
@@ -70,7 +63,8 @@ void move_front(list<Student> &students, ostream &os){
 
 
 /*
- * The function removes students with grade lover than 2 and writes the new student list.
+ * The function removes students with grade lover than 2
+ * and writes new student list into a file.
  */
 void remove_lower(list<Student> &students, ostream &os){
     os << "------------------------------------------------------------------------------\n\n";
@@ -81,8 +75,8 @@ void remove_lower(list<Student> &students, ostream &os){
 
 
 /*
- * The function receives a set of alphabetically sorted students of an input
- * faculty and writer them in file
+ * The function receives a set of alphabetically sorted
+ * students of an input faculty and writes them into a file.
  */
 void sort_faculty(list<Student> &students, ostream &os){
     string faculty;
@@ -90,7 +84,7 @@ void sort_faculty(list<Student> &students, ostream &os){
     cout << "Enter name of faculty to sort: ";
     cin >> faculty;
     os << "Alphabetically sorted students of " << faculty <<" faculty: \n";
-    set<Student, lex_compare> f_students;
+    set<Student> f_students;
     copy_if(students.begin(), students.end(), inserter(f_students, f_students.end()),
             [faculty](const Student &s){return s.getFaculty() == faculty;});
     write(f_students, os);
