@@ -1,0 +1,33 @@
+In computing, associative containers refer to a group of class templates in the standard library of the C++ programming
+language that implement ordered associative arrays.[1] Being templates, they can be used to store arbitrary elements,
+such as integers or custom classes. The following containers are defined in the current revision of the C++ standard:
+set, map, multiset, multimap. Each of these containers differ only on constraints placed on their elements.
+The associative containers are similar to the unordered associative containers in C++ standard library, the only
+difference is that the unordered associative containers, as their name implies, do not order their elements.
+Associative containers are designed to be especially efficient in accessing its elements by their key, as opposed to
+sequence containers which are more efficient in accessing elements by their position.[1] Associative containers are
+guaranteed to perform operations of insertion, deletion, and testing whether an element is in it, in logarithmic
+time - O(log n). As such, they are typically implemented using self-balancing binary search trees and support
+bidirectional iteration. Iterators and references are not invalidated by insert and erase operations, except for
+iterators and references to erased elements.The defining characteristic of associative containers is that elements are
+inserted in a pre-defined order, such as sorted ascending.
+The associative containers can be grouped into two subsets: maps and sets. A map, sometimes referred to as a dictionary,
+consists of a key value pair. The key is used to order the sequence, and the value is somehow associated with that key.
+For example, a map might contain keys representing every unique word in a text and values representing the number of
+times that word appears in the text. A set is simply an ascending container of unique elements.
+Both map and set only allow one instance of a key or element to be inserted into the container. If multiple instances of
+elements are required, use multimap or multiset.
+Both maps and sets support bidirectional iterators. For more information on iterators, see Iterators.
+While not officially part of the STL standard, hash_map and hash_set are commonly used to improve searching times.
+These containers store their elements as a hash table, with each table entry containing a bidirectional linked list of
+elements. To ensure the fastest search times, make sure that the hashing algorithm for your elements returns evenly
+distributed hash valuesz.
+The amount of printed material and its readership began to increase after the invention of moveable type in Europe in
+the. As explained by writer and editor Lynne Truss, "The rise of printing in the centuries meant
+that a standard system of punctuation was urgently required." Printed books, whose letters were uniform, could be
+read much more rapidly than manuscripts.
+The introduction of a standard system of punctuation has also been attributed to the Venetian printers Aldus Manutius
+and his grandson. By, Aldus Manutius the Younger was able to state that the main object of punctuation was the
+clarification of syntax.
+By the century, punctuation in the western world had evolved "to classify the marks hierarchically, in terms
+of weight". Cecil Hartley's poem identifies their relative values:
