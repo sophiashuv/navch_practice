@@ -1,0 +1,7 @@
+AK1234AB Kiz 35
+AK8234AB Savchenko 41
+AK4234AB Hnatchenko 7
+AK7234AB Chervonyy 45
+AK6234AB Sokulskiy 51
+AK2234AB Koliasa 21
+AK3234AB Zabavskiy 53
