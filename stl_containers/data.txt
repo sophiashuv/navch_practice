@@ -1,0 +1,13 @@
+Firm1 category5 type5 6786 5 ad6 ad7 ad4 ad1 ad5
+Firm5 category1 type4 6788 6 ad6 ad5 ad8 ad2 ad3 ad6
+Firm1 category3 type1 6770 4 ad6 ad7 ad5 ad2
+Firm3 category2 type3 6771 6 ad9 ad5 ad9 ad4 ad2 ad3
+Firm1 category1 type5 6778 5 ad5 ad7 ad8 ad9 ad1
+Firm5 category2 type2 6778 6 ad7 ad8 ad4 ad6 ad5 ad3
+Firm2 category5 type3 6756 4 ad5 ad9 ad7 ad6
+Firm5 category1 type4 6789 3 ad9 ad8 ad9
+Firm1 category1 type4 6789 6 ad8 ad5 ad7 ad6 ad2 ad3
+Firm3 category3 type3 6790 5 ad5 ad6 ad2 ad7 ad4
+Firm2 category1 type2 6791 7 ad7 ad8 ad5 ad2 ad9 ad1 ad3
+Firm1 category2 type1 6782 3 ad8 ad7 ad5
+Firm3 category1 type1 6787 3 ad9 ad5 ad8

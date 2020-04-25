@@ -1,0 +1,146 @@
+Table of all computers: 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+
+Sorted by all criterias:
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+
+Sorted by category:
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+
+Sorted by p_type:
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+
+Sorted by firm_name:
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+
+Sorted by num:
+firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+
+Categories for computer: 
+category1 => firm_name: Firm1, category: category1, p_type: type5, num: 6778, dod_com: ad5 ad7 ad8 ad9 ad1 
+			 firm_name: Firm3, category: category1, p_type: type1, num: 6787, dod_com: ad9 ad5 ad8 
+			 firm_name: Firm5, category: category1, p_type: type4, num: 6788, dod_com: ad6 ad5 ad8 ad2 ad3 ad6 
+			 firm_name: Firm1, category: category1, p_type: type4, num: 6789, dod_com: ad8 ad5 ad7 ad6 ad2 ad3 
+			 firm_name: Firm5, category: category1, p_type: type4, num: 6789, dod_com: ad9 ad8 ad9 
+			 firm_name: Firm2, category: category1, p_type: type2, num: 6791, dod_com: ad7 ad8 ad5 ad2 ad9 ad1 ad3 
+			 
+category2 => firm_name: Firm3, category: category2, p_type: type3, num: 6771, dod_com: ad9 ad5 ad9 ad4 ad2 ad3 
+			 firm_name: Firm5, category: category2, p_type: type2, num: 6778, dod_com: ad7 ad8 ad4 ad6 ad5 ad3 
+			 firm_name: Firm1, category: category2, p_type: type1, num: 6782, dod_com: ad8 ad7 ad5 
+			 
+category3 => firm_name: Firm1, category: category3, p_type: type1, num: 6770, dod_com: ad6 ad7 ad5 ad2 
+			 firm_name: Firm3, category: category3, p_type: type3, num: 6790, dod_com: ad5 ad6 ad2 ad7 ad4 
+			 
+category5 => firm_name: Firm2, category: category5, p_type: type3, num: 6756, dod_com: ad5 ad9 ad7 ad6 
+			 firm_name: Firm1, category: category5, p_type: type5, num: 6786, dod_com: ad6 ad7 ad4 ad1 ad5 
+			 
+Task3: 
+Firm1 => 5 : ad5
+		 5 : ad7
+		 3 : ad6
+		 3 : ad8
+		 2 : ad1
+		 2 : ad2
+		 1 : ad3
+		 1 : ad4
+		 1 : ad9
+		 
+Firm2 => 2 : ad5
+		 2 : ad7
+		 2 : ad9
+		 1 : ad1
+		 1 : ad2
+		 1 : ad3
+		 1 : ad6
+		 1 : ad8
+		 
+Firm3 => 3 : ad5
+		 3 : ad9
+		 2 : ad2
+		 2 : ad4
+		 1 : ad3
+		 1 : ad6
+		 1 : ad7
+		 1 : ad8
+		 
+Firm5 => 3 : ad6
+		 3 : ad8
+		 2 : ad3
+		 2 : ad5
+		 2 : ad9
+		 1 : ad2
+		 1 : ad4
+		 1 : ad7
+		 
