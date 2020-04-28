@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <iterator>
 #include <set>
 #include <map>
 
@@ -19,7 +20,8 @@ using namespace std;
  */
 template <typename T>
 void write(const T &w){
-    for (auto it = w.begin(); it != w.end(); ++it) cout << *it << ' ';
+    if (w.empty()) cout << "Empty container";
+    else for (auto it = w.begin(); it != w.end(); ++it) cout << *it << ' ';
     cout << '\n';
 }
 
@@ -37,18 +39,24 @@ void write(const map<string, set<string>> &m){
 
 /*
  * The function reads text from file and leaves in set vowels only those
- * vowels that ocurres in all words.
+ * vowels that occures in all words.
  */
 void task1(const string &file_name, set<char> &vowels){
-    set<char> w;
     ifstream fin(file_name);
+    set<char>word;
+
     if (fin) {
-        string word;
-        while (fin >> word){
-            for (auto x : word ) w.insert(tolower(x));
-            for (auto it = ++vowels.begin(); it != vowels.end(); ++it) if (w.find(*it) == w.end()) vowels.erase(it--);
-            if (w.find(*vowels.begin()) == w.end()) vowels.erase(vowels.begin());
-            w.clear();
+        char c;
+        while (!fin.eof( )) {
+            fin.get(c);
+            if (vowels.empty() || c == '.') break;
+            if (c == ' ') {
+                for (auto it = vowels.begin(); it != vowels.end();)
+                    if (word.find(*it) == word.end()) it = vowels.erase(it);
+                    else ++it;
+                word.clear();
+            }
+            word.insert(c);
         }
     }
     else throw "File not open exception\n";
@@ -56,7 +64,7 @@ void task1(const string &file_name, set<char> &vowels){
 
 
 /*
- * The function reads dogs from file fills a map with digs breeds
+ * The function reads dogs from file, fills a map with dogs breeds
  * and dogs names.
  */
 void task2(const string &file_name,  map<string, set<string>> &m){
@@ -77,7 +85,15 @@ void task3(map<string, set<string>> &m){
     string name;
     cout << "\nEnter dog name which to erase: ";
     cin >> name;
-    for (auto &el: m) if(el.second.find(name) != el.second.end()) el.second.erase(name);
+    for (auto it = m.begin(); it != m.end();) {
+        if (it->second.find(name) != it->second.end()) {
+            if (it->second.size() == 1) it = m.erase(it);
+            else {
+                it->second.erase(name);
+                ++it;
+            }
+        } else ++it;
+    }
 }
 
 
