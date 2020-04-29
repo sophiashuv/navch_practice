@@ -1,0 +1,10 @@
+sportsman_n0 sportsman_s0 0
+sportsman_n1 sportsman_s1 1
+sportsman_n2 sportsman_s2 2
+sportsman_n3 sportsman_s3 3
+sportsman_n4 sportsman_s4 4
+sportsman_n5 sportsman_s5 5
+sportsman_n6 sportsman_s6 6
+sportsman_n7 sportsman_s7 7
+sportsman_n8 sportsman_s8 8
+sportsman_n9 sportsman_s9 9

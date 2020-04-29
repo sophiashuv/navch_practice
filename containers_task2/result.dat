@@ -1,0 +1,78 @@
+name: sportsman_n0, surname: sportsman_s0, num: 0
+name: sportsman_n1, surname: sportsman_s1, num: 1
+name: sportsman_n2, surname: sportsman_s2, num: 2
+name: sportsman_n3, surname: sportsman_s3, num: 3
+name: sportsman_n4, surname: sportsman_s4, num: 4
+name: sportsman_n5, surname: sportsman_s5, num: 5
+name: sportsman_n6, surname: sportsman_s6, num: 6
+name: sportsman_n7, surname: sportsman_s7, num: 7
+name: sportsman_n8, surname: sportsman_s8, num: 8
+name: sportsman_n9, surname: sportsman_s9, num: 9
+
+------------------
+Sport1 => 53 : name: sportsman_n1, surname: sportsman_s1, num: 1
+		  50 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  43 : name: sportsman_n4, surname: sportsman_s4, num: 4
+		  
+
+Sport2 => 63 : name: sportsman_n3, surname: sportsman_s3, num: 3
+		  52 : name: sportsman_n9, surname: sportsman_s9, num: 9
+		  52 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  
+
+Sport3 => 65 : name: sportsman_n1, surname: sportsman_s1, num: 1
+		  63 : name: sportsman_n6, surname: sportsman_s6, num: 6
+		  53 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  
+
+Sport4 => 63 : name: sportsman_n0, surname: sportsman_s0, num: 0
+		  53 : name: sportsman_n7, surname: sportsman_s7, num: 7
+		  52 : name: sportsman_n8, surname: sportsman_s8, num: 8
+		  
+
+
+------------------
+
+TASK1
+Sport1 => 50 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  43 : name: sportsman_n4, surname: sportsman_s4, num: 4
+		  
+
+Sport2 => 52 : name: sportsman_n9, surname: sportsman_s9, num: 9
+		  52 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  45 : name: sportsman_n0, surname: sportsman_s0, num: 0
+		  
+
+Sport3 => 63 : name: sportsman_n6, surname: sportsman_s6, num: 6
+		  53 : name: sportsman_n5, surname: sportsman_s5, num: 5
+		  52 : name: sportsman_n8, surname: sportsman_s8, num: 8
+		  
+
+Sport4 => 63 : name: sportsman_n0, surname: sportsman_s0, num: 0
+		  53 : name: sportsman_n7, surname: sportsman_s7, num: 7
+		  52 : name: sportsman_n8, surname: sportsman_s8, num: 8
+		  
+
+
+------------------
+
+TASK2
+155 => name: sportsman_n5, surname: sportsman_s5, num: 5
+108 => name: sportsman_n0, surname: sportsman_s0, num: 0
+104 => name: sportsman_n8, surname: sportsman_s8, num: 8
+63 => name: sportsman_n6, surname: sportsman_s6, num: 6
+53 => name: sportsman_n7, surname: sportsman_s7, num: 7
+52 => name: sportsman_n9, surname: sportsman_s9, num: 9
+43 => name: sportsman_n4, surname: sportsman_s4, num: 4
+
+
+------------------
+
+TASK3
+name: sportsman_n0, surname: sportsman_s0, num: 0 => 45 : Sport2   63 : Sport4   
+name: sportsman_n4, surname: sportsman_s4, num: 4 => 43 : Sport1   
+name: sportsman_n5, surname: sportsman_s5, num: 5 => 50 : Sport1   52 : Sport2   53 : Sport3   
+name: sportsman_n6, surname: sportsman_s6, num: 6 => 63 : Sport3   
+name: sportsman_n7, surname: sportsman_s7, num: 7 => 53 : Sport4   
+name: sportsman_n8, surname: sportsman_s8, num: 8 => 52 : Sport4   
+name: sportsman_n9, surname: sportsman_s9, num: 9 => 52 : Sport2   
