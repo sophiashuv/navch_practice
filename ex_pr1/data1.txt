@@ -1,0 +1,10 @@
+Tour00 Firm00 4 ex1 ex2 ex4 ex8
+Tour01 Firm01 1 ex2
+Tour02 Firm02 3 ex3 ex5 ex8
+Tour03 Firm03 2 ex1 ex5
+Tour04 Firm04 1 ex5
+Tour05 Firm01 3 ex1 ex2 ex8
+Tour06 Firm04 1 ex8
+Tour07 Firm02 3 ex3 ex4 ex5
+Tour08 Firm04 2 ex4 ex8
+Tour09 Firm01 3 ex2 ex4 ex8

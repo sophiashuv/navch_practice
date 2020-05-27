@@ -1,0 +1,10 @@
+Tour10 Firm01 3 ex1 ex4 ex5 Transport2
+Tour11 Firm01 1 ex9 Transport1
+Tour12 Firm02 2 ex8 ex9 Transport2
+Tour13 Firm03 3 ex1 ex7 ex8 Transport3
+Tour14 Firm04 2 ex5 ex9 Transport3
+Tour15 Firm05 1 ex1 Transport2
+Tour16 Firm02 2 ex7 ex5 Transport1
+Tour17 Firm03 3 ex4 ex5 ex2 Transport3
+Tour18 Firm05 3 ex1 ex3 ex4 Transport2
+Tour19 Firm00 1 ex3 Transport1
