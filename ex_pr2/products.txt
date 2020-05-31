@@ -1,0 +1,11 @@
+0 Product00 7.826
+1 Product01 20.131
+2 Product02 34.7556
+3 Product03 98.45
+4 Product04 7.53
+5 Product05 8.218
+6 Product06 12.047
+7 Product07 0.6
+8 Product08 9.679
+9 Product09 50.93
+10 Product10 45.3
