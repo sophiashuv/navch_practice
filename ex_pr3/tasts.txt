@@ -1,0 +1,5 @@
+1 Matan 100
+2 Diskra 40
+3 Algo 100
+7 Diskra 60
+

@@ -1,0 +1,11 @@
+1 Max 97
+2 Max 38
+3 Max 100
+1 Artur 56
+7 Artur 20
+2 Artur 20
+3 Artur 10
+7 Max 40
+1 Sophia 97
+7 Sophia 60
+2 Sophia 40
