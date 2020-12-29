@@ -1,0 +1,5 @@
+tovar1 40 50
+tovar2 100 0
+tovar3 38 30
+tovar4 27 25
+tovar5 34 75
