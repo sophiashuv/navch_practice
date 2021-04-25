@@ -1,0 +1,20 @@
+-------TASK2-------
+aadress2 => 
+			  Subscriber: Surname2 Name2 Middname2
+			  adress: aadress2
+			  phone: 066-747-1187 
+
+			  Subscriber: Surname2 Name2 Middname2
+			  adress: aadress2
+			  phone: 676-747-1187 
+
+adress1 => 
+			  Subscriber: Surname1 Name1 Middname1
+			  adress: adress1
+			  phone: 066-747-1187 066-747-1187 
+
+adress2 => 
+			  Subscriber: Surname2 Name2 Middname2
+			  adress: adress2
+			  phone: 066-747-1187 
+
