@@ -1,0 +1,6 @@
+-------TASK3-------
+	date: 6 /4 /2021 title: title1 volume: 158.8 price: 223
+	date: 2 /3 /2021 title: title2 volume: 176 price: 204.96
+
+Total price: 427.96
+Total Volume: 334.8
